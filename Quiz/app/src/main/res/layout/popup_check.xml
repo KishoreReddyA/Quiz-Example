@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:gravity="center"
+    android:background="@drawable/button_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Quiz already available"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to create new  Quiz"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:layout_margin="15dp" />
+    <Button
+        android:id="@+id/btn_create_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create new Quiz"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background1"/>
+        <Button
+            android:id="@+id/btn_attempt_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attempt Quiz"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background1"/>
+
+</LinearLayout>
